@@ -1,0 +1,107 @@
+Role,Hourly/Salary,# of Badges,Badges,Years at Company,Visited page
+Scrum Master,Salary,2,"Agile Master, Jira Master",3,2
+Software Engineer,Salary,1,Microservices,2,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",4,1
+Innovation Manager,Salary,3,Innovation Manager,5,3
+Cloud Engineer,Salary,1,AWS Apprentice,4,2
+HR Associate,Salary,2,"HR Associate, Risk Management",3,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,3
+Scrum Master,Hourly,2,"Agile Master, Jira Master",2,2
+Software Engineer,Salary,1,Microservices,3,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",2,1
+Innovation Manager,Salary,3,Innovation Manager,4,3
+Cloud Engineer,Salary,1,AWS Apprentice,3,2
+HR Associate,Salary,2,"HR Associate, Risk Management",5,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",4,3
+Scrum Master,Salary,2,"Agile Master, Jira Master",3,2
+Software Engineer,Hourly,1,Microservices,2,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",4,1
+Innovation Manager,Salary,3,Innovation Manager,5,3
+Cloud Engineer,Salary,1,AWS Apprentice,4,2
+HR Associate,Salary,2,"HR Associate, Risk Management",3,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,3
+Scrum Master,Salary,2,"Agile Master, Jira Master",2,2
+Software Engineer,Salary,1,Microservices,3,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",2,1
+Innovation Manager,Salary,3,Innovation Manager,4,3
+Cloud Engineer,Salary,1,AWS Apprentice,3,2
+HR Associate,Salary,2,"HR Associate, Risk Management",5,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",4,3
+Scrum Master,Hourly,2,"Agile Master, Jira Master",3,2
+Software Engineer,Salary,1,Microservices,2,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",4,1
+Innovation Manager,Salary,3,Innovation Manager,5,3
+Cloud Engineer,Salary,1,AWS Apprentice,4,2
+HR Associate,Salary,2,"HR Associate, Risk Management",3,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,3
+Scrum Master,Salary,2,"Agile Master, Jira Master",2,2
+Software Engineer,Hourly,1,Microservices,3,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",2,1
+Innovation Manager,Salary,3,Innovation Manager,4,3
+Cloud Engineer,Salary,1,AWS Apprentice,3,2
+HR Associate,Salary,2,"HR Associate, Risk Management",5,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",4,3
+Scrum Master,Salary,2,"Agile Master, Jira Master",3,2
+Software Engineer,Salary,1,Microservices,2,4
+Data Analyst,Salary,2,"Data Visualization, Banking Foundations",4,1
+Innovation Manager,Salary,3,Innovation Manager,5,3
+Cloud Engineer,Salary,1,AWS Apprentice,4,2
+HR Associate,Salary,2,"HR Associate, Risk Management",3,1
+CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,3
+Cloud Engineer,Salary,2,"AWS Apprentice, Jira Master",2,2
+Data Analyst,Salary,1,Banking Foundations,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",4,1
+CBEX Associate,Salary,3,"Microservices, Risk Management, Agile Master",5,3
+Scrum Master,Salary,1,Agile Master,4,2
+HR Associate,Salary,2,"HR Associate, Jira Master",3,1
+Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",6,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Salary,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Salary,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Hourly,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Hourly,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Hourly,1,Data Visualization,3,4
+Innovation Manager,Hourly,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Hourly,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Hourly,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Salary,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Hourly,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Hourly,1,Agile Master,3,2
+HR Associate,Hourly,2,"HR Associate, Jira Master",5,1
+Software Engineer,Hourly,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Salary,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,2
+Data Analyst,Salary,1,Data Visualization,3,4
+Innovation Manager,Salary,2,"Innovation Manager, Risk Management",5,1
+Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,3
+Scrum Master,Salary,1,Agile Master,3,2
+HR Associate,Salary,2,"HR Associate, Jira Master",5,1
+Software Engineer,Hourly,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,3
+CBEX Associate,Hourly,2,"Banking Foundations, Microservices",2,2
