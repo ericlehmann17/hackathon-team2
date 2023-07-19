@@ -28,12 +28,12 @@ if __name__ == '__main__':
 
     ## parameters:
     ## - max iterations
-    max_iter = 300
+    max_iter = 10000
     ## - random state. basically seed for bootstrapping
-    random_state = 1
+    # random_state = 1
 
     ## initialize the model
-    nn = MLPClassifier(max_iter=max_iter, random_state=random_state)
+    nn = MLPClassifier(max_iter=max_iter)
     ## TODO: uncomment below once we have X and y
     nn.fit(X_train, y_train)
 
@@ -51,4 +51,8 @@ if __name__ == '__main__':
     print(nn_deserialized.score(X_test, y_test))
 
     ## show log of probability outputs
-    print(nn_deserialized.predict_log_proba(X_test))
+    output_matrix = nn_deserialized.predict_log_proba(X_test)
+    print(output_matrix)
+
+
+
