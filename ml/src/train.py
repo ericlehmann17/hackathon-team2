@@ -5,6 +5,7 @@ TMR hackathon team 2
 """
 
 from sklearn.neural_network import MLPClassifier
+from sklearn.metrics import f1_score
 from joblib import dump, load
 from pandas import read_csv
 import os
@@ -28,7 +29,7 @@ if __name__ == '__main__':
 
     ## parameters:
     ## - max iterations
-    max_iter = 10000
+    max_iter = 1000
     ## - random state. basically seed for bootstrapping
     # random_state = 1
 
@@ -45,14 +46,19 @@ if __name__ == '__main__':
     nn_deserialized = load('models/trained_network.joblib')
 
     ## test network
-    nn_deserialized.predict(X_train)
+    y_pred = nn_deserialized.predict(X_test)
+    print(y_pred)
     
     ## show accuracy
     print(nn_deserialized.score(X_test, y_test))
 
+    ## show f1-score (f1-score calculated for each metric, and a weighted average is taken based on class frequency)
+    print(f1_score(y_test, y_pred, average="weighted"))
+
     ## show log of probability outputs
     output_matrix = nn_deserialized.predict_log_proba(X_test)
     print(output_matrix)
+
 
 
 
