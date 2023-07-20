@@ -1,0 +1,135 @@
+Employee ID,Role,Hourly/Salary,# of Badges,Badges,Years at Company,Visited page,Recommended page
+D123462,CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,"3,4,1",3
+D123469,CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",4,"3,4",3
+D123476,CBEX Associate,Salary,5,"Banking Foundations, Risk Management, Jira Master, Microservices, Becoming a Manager",6,"3,4",4
+D123483,CBEX Associate,Salary,5,"Banking Foundations, Risk Management, Jira Master, Microservices, Becoming a Manager",4,"3,1,7",3
+D123490,CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",6,"3,1",3
+D123497,CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",4,"3,1,8",8
+D123504,CBEX Associate,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",16,"3,1,7",8
+D123508,CBEX Associate,Salary,3,"Microservices, Risk Management, Agile Master",5,"3,8",3
+D123512,CBEX Associate,Salary,0,N/A,2,"3,1",3
+D123519,CBEX Associate,Salary,3,"Banking Foundations, Microservices, Becoming a Manager",2,"3,6,1",3
+D123526,CBEX Associate,Hourly,2,"Banking Foundations, Microservices",2,"3,2",2
+D123533,CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,"3,5",3
+D123540,CBEX Associate,Salary,3,"Banking Foundations, Microservices, Risk Management",22,"3,4,7",7
+D123547,CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,"3,1",3
+D123554,CBEX Associate,Salary,2,"Banking Foundations, Microservices",2,"3,1",3
+D123561,CBEX Associate,Hourly,2,"Banking Foundations, Microservices",0,"3,2,7,1",7
+D123460,Cloud Engineer,Salary,2,"AWS Apprentice, Risk Management",5,"5,4",5
+D123467,Cloud Engineer,Hourly,1,AWS Apprentice,3,"5,2",5
+D123474,Cloud Engineer,Salary,2,"AWS Apprentice, Risk Management",4,"5,4",4
+D123481,Cloud Engineer,Salary,2,"AWS Apprentice, Becoming a Manager",3,"5,1",1
+D123488,Cloud Engineer,Salary,1,AWS Apprentice,4,"5,1",5
+D123495,Cloud Engineer,Salary,0,N/A,0,"5,1",5
+D123502,Cloud Engineer,Salary,2,"AWS Apprentice, Risk Management",4,"5,1",1
+D123505,Cloud Engineer,Salary,2,"AWS Apprentice, Jira Master",2,"5,1,8",5
+D123515,Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,"5,8",5
+D123522,Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,"5,1",8
+D123529,Cloud Engineer,Hourly,3,"AWS Apprentice, Jira Master, Microservices",4,"5,2",5
+D123536,Cloud Engineer,Salary,4,"AWS Apprentice, Jira Master, Microservices, Becoming a Manager",14,"5,1,7,8",5
+D123543,Cloud Engineer,Hourly,3,"AWS Apprentice, Jira Master, Microservices",4,"5,2,8",8
+D123550,Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,"5,1",5
+D123557,Cloud Engineer,Salary,3,"AWS Apprentice, Jira Master, Microservices",4,"5,1",5
+D123458,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",4,"5,3",5
+D123465,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",12,"5,3",5
+D123472,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",4,"5,3,7",5
+D123479,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",2,"5,3",5
+D123486,Data Analyst,Salary,3,"Data Literacy, Banking Foundations, Becoming a Manager",4,5,3
+D123493,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",2,"5,3",5
+D123500,Data Analyst,Salary,2,"Data Literacy, Banking Foundations",4,"5,3",3
+D123506,Data Analyst,Salary,3,"Data Literacy, Banking Foundations, Becoming a Manager",3,"5,3",5
+D123513,Data Analyst,Hourly,1,Data Literacy,4,"5,2",5
+D123520,Data Analyst,Salary,1,Data Literacy,3,"5,1",5
+D123527,Data Analyst,Hourly,2,"Data Literacy, Becoming a Manager",3,"5,2",2
+D123534,Data Analyst,Salary,2,"Data Literacy, Becoming a Manager",3,"5,1",5
+D123541,Data Analyst,Salary,1,Data Literacy,3,"5,1,7",5
+D123548,Data Analyst,Salary,2,"Data Literacy, Becoming a Manager",13,"5,1",5
+D123555,Data Analyst,Salary,2,"Data Literacy, Risk Management",3,"5,4",5
+D123461,HR Associate,Salary,1,Risk Management,3,"7,4",4
+D123468,HR Associate,Salary,1,Risk Management,5,"7,4,1",7
+D123475,HR Associate,Salary,2,"Risk Management, Jira Master",3,"7,4,8",7
+D123482,HR Associate,Salary,0,N/A,5,7,7
+D123489,HR Associate,Salary,1,Risk Management,3,"7,4",4
+D123496,HR Associate,Salary,2,"Risk Management, Jira Master",5,"7,4",7
+D123503,HR Associate,Salary,1,Risk Management,3,"7,4",7
+D123510,HR Associate,Salary,2,"Risk Management, Jira Master",13,"7,4,8",8
+D123517,HR Associate,Salary,1,Risk Management,5,"7,4",7
+D123524,HR Associate,Salary,1,Risk Management,3,"7,4,1",7
+D123531,HR Associate,Salary,2,"Risk Management, Jira Master",5,"7,4",7
+D123538,HR Associate,Salary,2,"Jira Master, Risk Management",2,7,4
+D123545,HR Associate,Hourly,1,Jira Master,5,"7,2",2
+D123552,HR Associate,Salary,1,Jira Master,5,"7,8",8
+D123559,HR Associate,Salary,2,"Jira Master, Risk Management",5,7,7
+D123459,Innovation Manager,Salary,2,"Risk Management, Agile Master",5,"6,8,4",6
+D123466,Innovation Manager,Salary,3,"Agile Master, Jira Master, Becoming a Manager",4,"6,8",6
+D123473,Innovation Manager,Salary,0,N/A,5,"6,8",6
+D123480,Innovation Manager,Hourly,2,"Jira Master, Becoming a Manager",4,"6,2",8
+D123487,Innovation Manager,Salary,2,"Agile Master, Jira Master",5,"6,8",6
+D123494,Innovation Manager,Salary,3,"Agile Master, Jira Master, Becoming a Manager",4,"6,8",8
+D123501,Innovation Manager,Salary,1,Jira Master,15,"6,1",6
+D123507,Innovation Manager,Salary,2,"Risk Management, Becoming a Manager",4,"6,1",6
+D123514,Innovation Manager,Salary,2,"Risk Management, Data Literacy",5,"6,4,7",6
+D123521,Innovation Manager,Salary,1,Risk Management,5,6,4
+D123528,Innovation Manager,Hourly,2,"Agile Master, Risk Management",5,"6,2",8
+D123535,Innovation Manager,Salary,1,Risk Management,5,"6,4",6
+D123542,Innovation Manager,Salary,1,Risk Management,5,"6,4,1",4
+D123549,Innovation Manager,Salary,0,N/A,5,"6,4,7",6
+D123556,Innovation Manager,Salary,1,Risk Management,5,"6,4",6
+D123456,Scrum Master,Hourly,2,"Agile Master, Jira Master",3,"8,2,1,5",8
+D123463,Scrum Master,Hourly,2,"Agile Master, Jira Master",2,"8,2",2
+D123470,Scrum Master,Hourly,2,"Agile Master, Jira Master",3,"8,2,5",8
+D123477,Scrum Master,Hourly,2,"Agile Master, Jira Master",2,"8,2",8
+D123484,Scrum Master,Hourly,2,"Agile Master, Jira Master",3,"8,2",8
+D123491,Scrum Master,Hourly,2,"Agile Master, Jira Master",1,"8,2,5",8
+D123498,Scrum Master,Hourly,2,"Agile Master, Jira Master",3,"8,2",2
+D123509,Scrum Master,Hourly,1,Agile Master,4,"8,2",8
+D123516,Scrum Master,Hourly,0,N/A,3,"8,2,5",5
+D123523,Scrum Master,Hourly,1,Agile Master,3,"8,2",2
+D123530,Scrum Master,Hourly,1,Agile Master,3,"8,2,1",8
+D123537,Scrum Master,Hourly,2,"Agile Master, Becoming a Manager",10,"8,2",2
+D123544,Scrum Master,Hourly,1,Agile Master,3,"8,2",8
+D123551,Scrum Master,Hourly,1,Agile Master,3,"8,2,1",2
+D123558,Scrum Master,Hourly,2,"Agile Master, Jira Master",2,"8,2",8
+D123457,Software Engineer,Salary,1,Microservices,12,"5,1,8",5
+D123464,Software Engineer,Salary,1,Microservices,3,"5,1",5
+D123471,Software Engineer,Hourly,1,Microservices,2,"5,2,8,1",2
+D123478,Software Engineer,Salary,0,N/A,3,"5,1",5
+D123485,Software Engineer,Salary,1,Microservices,2,"5,1",5
+D123492,Software Engineer,Hourly,1,Microservices,3,"5,2",2
+D123499,Software Engineer,Salary,2,"Microservices, Becoming a Manager",2,"5,1",5
+D123511,Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",6,"5,4",4
+D123518,Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,"5,4,8",5
+D123525,Software Engineer,Hourly,5,"Microservices, Secure Dev, Jira Master, Risk Management, Becoming a Manager",4,"5,2",5
+D123532,Software Engineer,Salary,3,"Microservices, Secure Dev, Jira Master",4,"5,8",8
+D123539,Software Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,"5,4",5
+D123546,Software Engineer,Hourly,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,"5,2,8",5
+D123553,Software Engineer,Salary,4,"Microservices, Secure Dev, Risk Management, Becoming a Manager",4,"5,4",5
+D123560,Software Engineer,Hourly,4,"Microservices, Secure Dev, Jira Master, Risk Management",4,"5,2,1",2
+D324367,Cloud Engineer,Hourly,1,AWS Apprentice,10,0,5
+D324368,Cloud Engineer,Salary,3,"Microservices, Secure Dev, Becoming a Manager",1,0,5
+D324369,Cloud Engineer,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",5,0,4
+D324370,Cloud Engineer,Hourly,1,Becoming a Manager,8,0,2
+D324371,CBEX Associate,Salary,2,"Banking Foundations, Becoming a Manager",29,0,7
+D324372,CBEX Associate,Salary,2,"Banking Foundations, Jira Master",3,0,3
+D324373,CBEX Associate,Salary,3,"Risk Management, Becoming a Manager, Banking Foundations",2,0,3
+D324374,CBEX Associate,Salary,5,"Banking Foundations, Microservices, Secure Dev, Risk Management, Becoming a Manager",7,0,4
+D324375,Data Analyst,Hourly,5,"Data Literacy, Microservices, Secure Dev, Risk Management, Becoming a Manager",5,0,4
+D324376,Data Analyst,Hourly,1,Becoming a Manager,5,0,2
+D324377,Data Analyst,Salary,2,"Risk Management, Secure Dev",6,0,4
+D324378,Data Analyst,Salary,1,Microservices,4,0,5
+D324379,HR Associate,Salary,0,N/A,12,0,7
+D324380,HR Associate,Hourly,4,"AWS Apprentice, Data Literacy, Microservices, Becoming a Manager",9,0,5
+D324381,HR Associate,Hourly,3,"Banking Foundations, Microservices, Risk Management",0,0,7
+D324382,HR Associate,Salary,0,N/A,0,"1,6",7
+D324383,Innovation Manager,Salary,2,"Data Literacy, Banking Foundations",3,5,5
+D324384,Innovation Manager,Salary,2,"Risk Management, Becoming a Manager",6,"4,6,7",4
+D324385,Innovation Manager,Salary,1,Risk Management,9,0,4
+D324386,Innovation Manager,Salary,4,"Banking Foundations, Risk Management, Jira Master, Microservices",11,"4,5",5
+D324387,Scrum Master,Hourly,3,"AWS Apprentice, Jira Master, Microservices",19,"2,5,8",5
+D324388,Scrum Master,Salary,0,N/A,7,0,5
+D324389,Scrum Master,Salary,1,Agile Master,3,0,8
+D324390,Scrum Master,Salary,4,"Microservices, Secure Dev, Jira Master, Risk Management",6,"8,5",4
+D324391,Software Engineer,Hourly,2,"Risk Management, Data Literacy",8,"2,5",5
+D324392,Software Engineer,Salary,2,"Agile Master, Jira Master",2,0,8
+D324393,Software Engineer,Salary,3,"Agile Master, Jira Master, Becoming a Manager",1,"5,7",8
+D324394,Software Engineer,Salary,1,Data Literacy,0,0,7
