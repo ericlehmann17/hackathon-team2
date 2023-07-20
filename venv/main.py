@@ -20,8 +20,16 @@ def recommended_pages():
     request.get_json()
 
     # ML code stuff
+    #TODO: load in data from sharepoint
 
-    return [1,2,3,4,5,6,7,8], 200 #mock return in place of ML 
+    #TODO: process sharepoint data
+
+    #TODO: run processed data through our trained model
+    nn_deserialized = load('models/trained_network.joblib')
+    result = nn_deserialized.predict()#add data into parens
+    
+    #TODO: return output given by the model
+    return result[0]
 
 @app.route('/addEmployee', methods=['POST'])
 def add_empoloyee():
