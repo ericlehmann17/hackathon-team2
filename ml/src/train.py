@@ -18,12 +18,12 @@ if __name__ == '__main__':
 
     ## TODO: load preprocessed data here
     ## Training data
-    df_train = read_csv('data/processed/train.csv', header=0)
+    df_train = read_csv('ml/data/processed/train.csv', header=0)
     df_train = df_train.drop('Employee ID', axis=1)
     X_train, y_train = df_train.drop('Recommended page', axis=1), df_train['Recommended page']
 
     ## Testing data
-    df_test = read_csv('data/processed/test.csv', header=0)
+    df_test = read_csv('ml/data/processed/test.csv', header=0)
     df_test = df_test.drop('Employee ID', axis=1)
     X_test, y_test = df_test.drop('Recommended page', axis=1), df_test['Recommended page']
 

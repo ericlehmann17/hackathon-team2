@@ -46,7 +46,7 @@ def recommended_pages():
             break
         ## add recommendation, and repeat to find others
         recs.append(max_index)
-        prediction.pop(max_index)
+        prediction[max_index] = -Infinity
 
         ## TODO: Prepare recs to be sent back up to the Sharepoint
 
