@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+import requests 
 from joblib import load
 from numpy import Infinity
 from sklearn.neural_network import MLPClassifier
@@ -48,7 +49,19 @@ def recommended_pages():
         recs.append(max_index)
         prediction.pop(max_index)
 
-        ## TODO: Prepare recs to be sent back up to the Sharepoint
+        #Prepare recs to be sent back up to the Sharepoint
+    
+    # This is where the SharePoint API endpoint and access token are defined
+    sharepoint_api_url = 'https://kempath.sharepoint.com/sites/KEMPATHIntranet/api/receive_recommendations'
+    access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2tlbXBhdGguc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8yMDNjMDM3YS04ZWU5LTQ5ODAtOTY5OC01ZWY2OTEyNzc2NTkvIiwiaWF0IjoxNjg5ODgwMDE4LCJuYmYiOjE2ODk4ODAwMTgsImV4cCI6MTY4OTg4MzkxOCwiYWlvIjoiRTJaZ1lGRHJ1bGJ4TFBEUGZIdEhaY1llWTZOSUFBPT0iLCJhcHBfZGlzcGxheW5hbWUiOiJLRU1QQVRIIFNoYXJlUG9pbnQiLCJhcHBpZCI6IjkxMTFhZTRlLWVlNzAtNGYzMC1iN2Y5LTFhNzhkMzE5OTgwOSIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzIwM2MwMzdhLThlZTktNDk4MC05Njk4LTVlZjY5MTI3NzY1OS8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjllOTBlMWQxLWY0YzMtNDA4NC05MjVlLTFkYmUzZDcxNDM2MSIsInJoIjoiMC5BYmNBZWdNOElPbU9nRW1XbUY3MmtTZDJXUU1BQUFBQUFQRVB6Z0FBQUFBQUFBQzNBQUEuIiwic2lkIjoiZDhjZmNhYTAtNjljNi00ZjUxLThkMjAtYjU0YWZiZWNlMDE5Iiwic3ViIjoiOWU5MGUxZDEtZjRjMy00MDg0LTkyNWUtMWRiZTNkNzE0MzYxIiwidGlkIjoiMjAzYzAzN2EtOGVlOS00OTgwLTk2OTgtNWVmNjkxMjc3NjU5IiwidXRpIjoiMWRKbnhRVmJaVS1TSkxxMkZOOG9BQSIsInZlciI6IjEuMCJ9.VRtuSHhjdWI_MOFhrVjBUeeardQ0oiWaiBbCdkDP6P-2i1rsZOaaJHziXATaejyrITVZKwPmFzBifoHsMO35HOKVhTE7xFKrVyRWMZO2Eg45qqZrNRw4AFWbgLn_063Fi5m27owVgCeTOTGDyNZhNB_HVcNuSqY_aF85xBizTiYylkzW1n23pSCVTBcbfXjDYLXILOnmHffx9gzp8fY0GfKdMPHsFreowwzQTefMyMmJbAyJCpdSJibxKft6T5k9UIclwmstK4NKP3vh_14cdONg7RvbNfMgVEi0JA0K9USkca7nk7hH0dEslqdtp8htsgOgdWEwEQfSLlPvXev0dQ'
+
+    # Set up the HTTP headers containing the access token
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
+    }
+    # Send the recommendation data to the SharePoint API using POST request
+    response = requests.post(sharepoint_api_url, json=recs, headers=headers)
 
     return recs, 200 #mock return in place of Sharepoint list 
 
