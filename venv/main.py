@@ -22,9 +22,11 @@ def default_recommended_pages():
 
 @app.route('/recommendPages', methods=['POST'])
 def recommended_pages():
-    request.get_json()
+    ## TODO: from Sharepoint (injected JS) make POST request to this endpoint sending user data
+    request_body = request.get_json()
 
     ## for now, user is hardcoded
+    ## TODO: pull user data out of request_body and format into a row that the neural network can understand
     user = [0.2,0.10344827586206896,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1]
     ## get prediction vector
     prediction = list(nn.predict_log_proba([user])[0])
@@ -46,7 +48,9 @@ def recommended_pages():
         recs.append(max_index)
         prediction.pop(max_index)
 
-    return recs, 200 #mock return in place of ML 
+        ## TODO: Prepare recs to be sent back up to the Sharepoint
+
+    return recs, 200 #mock return in place of Sharepoint list 
 
 @app.route('/addEmployee', methods=['POST'])
 def add_empoloyee():
